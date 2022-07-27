@@ -11,4 +11,11 @@
       <PackageReference Include="Markdig" Version="0.30.2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="test.md" />
+      <Content Include="test.md">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>
